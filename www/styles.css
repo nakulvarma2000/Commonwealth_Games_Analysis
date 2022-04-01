@@ -472,7 +472,7 @@ td.country-profile-value {
   flex-direction: column;
 }
 
-@media screen and (max-width: 1367px) {
+@media screen and (max-width: 1441px) {
   #intro-head{
     padding: 20px 0px !important;
     margin: 50px auto 0 auto !important;
@@ -488,7 +488,7 @@ td.country-profile-value {
   }
   .overview{
     margin: 0 auto !important;
-    width:80%;
+    width:85%;
   }
   .growth-heading{
     width: 50%;
@@ -582,5 +582,61 @@ td.country-profile-value {
   }
   .content p{
     font-size: 18px;
+  }
+}
+@media screen and (max-width: 1367px) {
+  .nav{
+    font-size: 18px;
+  }
+  .overview{
+    width:90%;
+  }
+  .country-profile{
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 2559px) {
+  .overview{
+    margin-top: 250px !important;
+  }
+  .nav{
+    font-size: 24px;
+    margin: 0px 10%;
+  }
+  .navbar-brand{
+    margin-left: 100%;
+  }
+  .growth-heading{
+    margin: 100px auto;
+    width: 80%;
+  }
+  .plot-style{
+    height: 500px;
+  }
+  .grwoth-line-legend{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .hist-fact{
+    width: 70%;
+  }
+  .medaltally-heading{
+    margin: 100px auto 30px auto;
+  }
+  #leaflet-map-container{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .countrypage{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .predictPage{
+    margin: 5% 20% 0px;
+  }
+  .blogpage{
+    width: 80%;
+    margin: 5% auto;
   }
 }
