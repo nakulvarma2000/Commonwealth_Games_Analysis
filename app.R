@@ -233,7 +233,7 @@ ui <- shinyUI(
                                                     )
                                        )
                                      ),
-                            leafletOutput("mapLeaflet", height=700)
+                            leafletOutput("mapLeaflet")
                             ),
                         htmlOutput("mapViewCaption")
                         )
@@ -447,7 +447,7 @@ ui <- shinyUI(
                                 div(class="sidebar",
                                     div(class="sidebarItem",
                                         span(class="sidebarTitle","ABOUT US"),
-                                        p(class = "paperSubtitle",style = "font-size: 22px;padding-bottom: 0px;","We are the 'Kuttans Te Kudiyan'"),
+                                        p(class = "paperSubtitle2",style = "font-size: 22px;padding-bottom: 0px;","We are the 'Kuttans Te Kudiyan'"),
                                         p(
                                           "'Kuttans Te Kudiyan' is derived from two languages, in which 'Kuttan' is taken from 
                                           Malayalam meaning 'boy' and 'Kudiyan' is taken from Punjabi meaning 'girls'. Five Kuttans 
@@ -809,7 +809,7 @@ server <- function(input,output,session){
             src=paste0(flagBaseUrl, country.misc.data()[['country.code']], '.png'),
             alt=paste0(input$countryNameInput, ' flag'),
             width=200, style = "margin: 0 auto;"),
-        div(div(id="country-profile-name", input$countryNameInput),
+        div(class = "country-table",div(id="country-profile-name", input$countryNameInput),
         tags$table(id="country-profile-table", border="1",
                    tags$tr(tags$td(class="country-profile-label", "Region"), tags$td(class="country-profile-value", country.misc.data()[['continent']])),
                    tags$tr(tags$td(class="country-profile-label", "# Years joined"), tags$td(class="country-profile-value", country.misc.data()[['years.joined']])),
