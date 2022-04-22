@@ -98,7 +98,7 @@ For the website to have more user interaction we thought of Implementing a way f
 users to add their blogs related to commonwealth games and share information with
 others
 
-#### Link to the dashboard: <a href = "https://nakulrameshvarma.shinyapps.io/Commonwealth_Games_Analysis/">Commonwealth Games Analysis</a>
+# Link to the dashboard: <a href = "https://nakulrameshvarma.shinyapps.io/Commonwealth_Games_Analysis/">Commonwealth Games Analysis</a>
 
 ### ABOUT US
 #### We are the 'Kuttans Te Kudiyan'
