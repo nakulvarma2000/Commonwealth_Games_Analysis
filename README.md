@@ -2,6 +2,22 @@
 ### Project on R Shiny. Dashboard to analyze and predict commonwealth games.
 This application provides visualisations on data on the Commonwealth Games, the international sporting event held every four years between members of the Commonwealth of Nations .
 
+## Project: Commonwealth game analysis
+## Project Problem Statement:
+One of the expanding areas necessitating good predictive accuracy is sport
+prediction, due to the large monetary amounts involved in betting. In addition,
+coaches and team owners are striving for models so that they can understand and
+formulate strategies needed to win. The aim of this project is to develop models for
+predicting the number of medals won by each country at the commonwealth games
+2022 using information that was available prior to the Games.
+This dashboard has been designed to analyze and visualize the performance of
+different countries during the past years and illustrate a predictive model to predict
+the performance of a country in the future.
+There are two main categories of prediction methods: one is predictions based on
+competition results leading up to the commonwealth, the other is by using economics
+and a range of factors to base their predictions (or a mixture of both of these).
+
+
 #### Link to the dashboard: <a href = "https://nakulrameshvarma.shinyapps.io/Commonwealth_Games_Analysis/">Commonwealth Games Analysis</a>
 
 ### ABOUT US
